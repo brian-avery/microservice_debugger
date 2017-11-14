@@ -8,3 +8,9 @@ When using microservices, it can be hard to debug problems holistically. If a si
  * when a problem cannot be solved automatically, make it easy for someone to come in and quckly determine the cause
  * be transport and language independent. To start with, I'd like to support using Go, but this will be designed in such a way that it's easy to extend with another language. This should be designed to be platform agnostic, whether communication is over kafka, REST, or something else, this platform should be easy to extend with additional transports.
  * This should be production ready.
+
+# Inspiration
+  * Pintrace -- https://medium.com/@Pinterest_Engineering/distributed-tracing-at-pinterest-with-new-open-source-tools-a4f8a5562f6b
+  * OpenTrace -- http://opentracing.io/documentation/
+
+# Other Thoughts
